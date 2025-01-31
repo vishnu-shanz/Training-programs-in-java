@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int p=input.nextInt();
+		float r=input.nextFloat();
+		double val=(p*r)/100;
+// 		double profit=val+p;
+// 		double loss=val-p;
+		if(val>p){
+		    System.out.println("profit");
+		}
+		else{
+		    System.out.println("loss");
+		}
+	}
+}
