@@ -1,0 +1,16 @@
+import java.util.*;
+class Main{
+     public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        int[] a={22,33,23,12,6};
+        for(int i=0;i<5;i++){
+          // for(int j=1;j<5;j++)
+            if(a[i]>a[i+1] && a[i]>a[i+2] && a[i]>a[i+3]){
+            System.out.println("The greatest "+a[i]);
+            }
+            else if(a[i]<a[i+1] && a[i]<a[i+2] && a[i]<a[i+3]){
+              System.out.println("The smallest"+a[i]); 
+            }
+        }
+     }
+}
