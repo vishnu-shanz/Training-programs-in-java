@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input =new Scanner(System.in);
+int val=0;
+int n=input.nextInt();
+int num;
+int temp=n;
+int cube;
+while(n!=0){
+    num = n % 10;
+    cube = num*num*num; 
+     val=val+cube;
+     n=n/10;
+}
+System.out.println(val);
+	if(temp==val){
+	    System.out.println("This is Armstrong number");
+	}
+	else{
+	    System.out.println("This is not ArmStrong number");
+	}
+}
+}
