@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main
+{
+      public static void main(String[] args) {
+	    Main n= new Main();
+	    simpleinterest s=new simpleinterest();
+	    s.si();
+}
+}
+class simpleinterest{
+    void si(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the principle amount :");
+        int p=input.nextInt();
+        System.out.println("Enter the Interest :");
+        float r=input.nextFloat();
+        System.out.println("Enter the time in years :");
+        int n=input.nextInt();
+        double intr=(p*n*r)/100;
+        System.out.println(intr);
+        double amt=p+intr;
+        System.out.println(amt);
+    }
+}
