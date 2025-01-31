@@ -1,0 +1,8 @@
+import java.util.*;
+class Main{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        String[] a={"Dragon","Booster"};
+        System.out.println(a[0]+a[1]);
+    }
+}
